@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business News</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+       main #agri-container , #agri-future {
+        display: grid;
+        overflow: hidden;
+        grid-template-columns:2fr 2fr;
+        grid-template-rows: auto;
+      }
+
+      .agri-01 {
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #0d1117, #21262d);
+        padding: 20px;
+        border: 2px solid #58a6ff;
+        border-radius: 10px;
+        max-width: 600px;
+        overflow: hidden;
+        height: auto;
+        cursor: pointer;
+        margin: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        color: #c9d1d9;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+        position: relative;
+      }
+
+      .agri-01:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+      }
+
+      .agri-01 .image-container img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .agri-01 .image-container img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+      .agri-01 .image-container img {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        object-fit: cover;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .agri-01 h2 {
+        color: #58a6ff;
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        border-bottom: 2px solid #58a6ff;
+        padding-bottom: 5px;
+      }
+
+      .agri-01 h3 {
+        color: #58a6ff;
+        margin: 15px 0 10px;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+      }
+
+      .agri-01 ul {
+        list-style-type: square;
+        padding-left: 20px;
+        margin: 0;
+      }
+
+      .agri-01 li {
+        color: #c9d1d9;
+        line-height: 1.6;
+      }
+
+      .agri-01 .raw-materials,
+      .agri-01 .processes,
+      .agri-01 .outcomes {
+        background: rgba(33, 38, 45, 0.9);
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .agri-01 .raw-materials:hover,
+      .agri-01 .processes:hover,
+      .agri-01 .outcomes:hover {
+        background: #1f6feb; /* Blue background on hover */
+        color: white; /* White text on hover */
+        transform: scale(1.02);
+        transition: 0.3s ease;
+      }
+
+      /* Image styling */
+      .agri-01 .image-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 id="head-title">BizForeSight - Business News and Trends</h1>
+      <nav>
+        <ul></ul>
+      </nav>
+    </header>
+    <main>
+        <div id="agri-container"></div>
+        <h1 style="display: flex;justify-content: space-evenly;border-bottom: 2px solid #1f6feb; padding-bottom: 20px;"> <span>o</span> FUTURE OF AGRICULTURE <span>o</span> </h1>
+        <div id="agri-future"></div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Business News. All rights reserved.</p>
+    </footer>
+    <script src="../sub-js/agriculture.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>
