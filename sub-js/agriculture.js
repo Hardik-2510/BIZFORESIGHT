@@ -30,7 +30,94 @@ const agriculturalEras = [
       "Shift from subsistence farming to commercial farming"
     ]
   },
-  // Other historical agricultural eras...
+  {
+    title: "1837: Founding of John Deere",
+    imageSrc: "../assets/primary-sector/agri-03.png",
+    rawMaterials: ["Steel (for plows)", "Wood (handles)", "Iron parts"],
+    processes: [
+      "John Deere invented the self-scouring steel plow, which could cut through sticky prairie soil.",
+      "Mass production of farming tools and equipment."
+    ],
+    outcomes: [
+      "Made farming in the Midwest more efficient.",
+      "Paved the way for mechanized agriculture.",
+      "Birth of modern agricultural machinery companies."
+    ]
+  },
+  {
+    title: "1900s: Mechanization of Agriculture",
+    imageSrc: "../assets/primary-sector/agri-04.png",
+    rawMaterials: ["Steel", "Iron", "Fossil fuels (for engines)", "Rubber (for tires)"],
+    processes: [
+      "Introduction of tractors, combine harvesters, and threshing machines",
+      "Shift from animal-powered farming to machine-powered operations"
+    ],
+    outcomes: [
+      "Increased productivity per acre",
+      "Reduced the need for manual labor on farms",
+      "Expansion of large-scale commercial farming"
+    ]
+  },
+  {
+    title: "1940s: Green Revolution Begins",
+    imageSrc: "../assets/primary-sector/agri-05.png",
+    rawMaterials: ["Hybrid seeds", "Chemical fertilizers", "Pesticides", "Irrigation systems"],
+    processes: [
+      "Development and adoption of high-yield crop varieties (e.g., dwarf wheat)",
+      "Use of synthetic fertilizers and pesticides to boost yields",
+      "Introduction of irrigation systems to ensure consistent water supply"
+    ],
+    outcomes: [
+      "Massive increase in global food production, especially in developing countries",
+      "Reduction in hunger and famine in regions like India and Mexico",
+      "Environmental concerns over chemical use and monoculture farming"
+    ]
+  },
+  {
+    title: "1970s: Rise of Agribusiness",
+    imageSrc: "../assets/primary-sector/agri-06.png",
+    rawMaterials: ["Crops", "Livestock", "Chemical inputs (fertilizers, pesticides)", "Machinery"],
+    processes: [
+      "Industrialization of farming with vertically integrated supply chains",
+      "Consolidation of smaller farms into large agribusiness corporations",
+      "Growth of global trade in agricultural products"
+    ],
+    outcomes: [
+      "Increased efficiency and profitability in farming",
+      "Decline of family-owned farms",
+      "Concerns over environmental sustainability and corporate control of agriculture"
+    ]
+  },
+  {
+    title: "1980s: Biotechnology in Agriculture",
+    imageSrc: "../assets/primary-sector/agri-07.png",
+    rawMaterials: ["DNA (for genetic engineering)", "Crops (corn, soybeans, etc.)", "Biochemicals"],
+    processes: [
+      "Genetic modification of crops to enhance traits like pest resistance and drought tolerance",
+      "Introduction of GMOs like Bt cotton and Roundup Ready soybeans",
+      "Use of laboratory and field testing to validate modifications"
+    ],
+    outcomes: [
+      "Higher yields and reduced dependence on pesticides",
+      "Controversies over GMO safety and labeling",
+      "Legal battles over patenting genetically modified seeds"
+    ]
+  },
+  {
+    title: "2000s: Precision Agriculture",
+    imageSrc: "../assets/primary-sector/agri-08.png",
+    rawMaterials: ["GPS technology", "Drones", "IoT sensors", "Data analytics software"],
+    processes: [
+      "Use of satellite imagery and GPS to map fields and optimize planting",
+      "Deployment of drones for crop monitoring and spraying",
+      "Data analytics for decision-making in fertilization, irrigation, and harvesting"
+    ],
+    outcomes: [
+      "Reduced waste and increased efficiency in farming operations",
+      "Higher profitability for tech-savvy farmers",
+      "Growing reliance on technology and digital tools"
+    ]
+  }
 ];
 
 // Future agricultural advancements
