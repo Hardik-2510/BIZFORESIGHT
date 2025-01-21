@@ -1,32 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business News</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="home-news.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="home-news.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <h1 id="head-title">BizForeSight - Business News and Trends</h1>
-        <nav>
-            <ul></ul>
-        </nav>
+      <h1 id="head-title">BizForeSight - Business News and Trends</h1>
+      <nav>
+        <ul></ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <h2> 📰 Latest Business News 🗞️</h2>
-            <p>💸 Stay updated with BizForeSight 💸</p>
-        </section>
-        <div id="news-container">
-            <!-- News articles will be injected here -->
-        </div>
+      <section>
+        <h2>📰 Latest Business News 🗞️</h2>
+        <p>💸 Stay updated with BizForeSight 💸</p>
+      </section>
+      <div id="news-container">
+        <!-- News articles will be injected here -->
+      </div>
     </main>
-    <footer>
-        <p>&copy; 2025 Business News. All rights reserved.</p>
+    <footer class="footer">
+      <div class="container">
+        <!-- Footer Navigation -->
+        <div class="footer-nav">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./dev-info.html">About Us</a></li>
+            <li><a href="./index.html">News</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <p><i class="fas fa-envelope"></i> info@example.com</p>
+          <p><i class="fas fa-phone"></i> +123 456 789</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy;BizForeSight All Rights Reserved.</p>
+      </div>
     </footer>
     <script src="script.js"></script>
     <script src="fetch-news.js"></script>
-</body>
+  </body>
 </html>

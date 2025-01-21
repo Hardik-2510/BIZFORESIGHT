@@ -181,3 +181,99 @@ footer {
         font-size: 14px;
     }
 }
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+/* Footer Styles */
+.footer {
+    background-color: #161b22;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.footer .container .footer-nav ul li , ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Footer Navigation */
+.footer-nav h3,
+.footer-social h3,
+.footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+/* Social Icons and Text Alignment */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: flex;
+    align-items: center; /* Align icons and text vertically */
+    margin-bottom: 10px;
+}
+
+.social-icons li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px; /* Adjust text size */
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center; /* Align text with icons */
+}
+
+.social-icons li a:hover {
+    color: #1f6feb; /* Light green on hover */
+}
+
+/* Icon Styles */
+.social-icons li a i {
+    font-size: 20px; /* Adjust icon size */
+    margin-right: 10px; /* Space between icon and text */
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.social-icons li a i:hover {
+    color: #1f6feb; /* Light green on hover */
+}
+
+/* Contact Section Alignment */
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 16px; /* Adjust font size */
+    color: #ffffff;
+}
+
+.footer-contact p i {
+    font-size: 18px; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer-contact p i:hover {
+    color: #1f6feb; /* Light green on hover */
+}

@@ -13,8 +13,9 @@ h1 {
     width: 100%;
     max-width: 1200px;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    /* flex-direction: column; */
     padding-left: 40px;
     /* background-color: red; */
     gap: 20px;
